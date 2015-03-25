@@ -1,0 +1,10 @@
+Package: VaRgcop
+Type: Package
+Title: Value-at-Risk estimation with gauss copula
+Version: 1.0
+Date: 2015-03-26
+Author: Egorov Evgenii
+Maintainer: <e.evgenovich@gmail.com>
+Description: Value-at-Risk estimation with gauss copula for portfolio with 2
+    assets
+License: MIT
