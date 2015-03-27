@@ -1,21 +1,6 @@
-# Abstract
-+ Project title: Convert Kevin Dowd's Matlab code
-+ Project idea page: https://github.com/rstats-gsoc/gsoc2015/wiki/Convert-Dowd%27s-Code
-
-"Measuring Market Risk" is a widely used book covering important topics in risk 
-measurement, also providing matlab code of modern quantitative finance algorithms. 
-Recently, most of the code for financial algorithms provided either on the VBA or on 
-Matlab, which increases the barrier to entry. 
-
-In my opinion, R is much more friendly environment for learning and experimentation,
-that does not require too much at the start, but at the same time able to cover your needs
-with an increase in the level of your professionalism.
-
-I hope this project will be a solid move towards widely accessible modern risk measure
-techniques.
-
-# Content
-
+---
+output: pdf_document
+---
 ## Personal Details
 + Egorov Evgenii
 + Melange username: egorovevgenii
@@ -24,11 +9,11 @@ techniques.
 + postal address: Russia, 630105, Novosibirsk, Kavaleryska 2 108
 
 ## Project Proposal
-I have read the parts of the book "Dowd, K. Measuring Market Risk" related to the code. 
+I have read the parts of the book "Dowd, K. Measuring Market Risk" related to the code.
 I have studied source matlab code, which was provided with the book, and played with it a 
 bit in matlab. Also, I have written R functions and and documented them, relating Dowd's 
-code 'Copula functions' for estimation VaR with gaussian copula. 
-For easy test it, I made package, which you can find in 
+code 'Copula functions' for estimation VaR with gaussian copula.
+For easy test it, I made package, which you can find in
 https://github.com/evgeniiegorov/VaRgcop
 
 I propose to сonvert Kevin Dowd's Matlab code from 'Measuring Market Risk'. 
@@ -138,10 +123,9 @@ This functions are already in PerformanceAnalytics package. :)
 
 ## Management of coding & timeline
 
-I'm plannig to work ~ 40 hours in week in the GSoC period to this project. 
-On the other hand, my goal is not to work 40 hours in week, but to reach all goals of 
-the project. Hence, I'm certainly willing to try my best. Thus, I will have no other 
-commitments during this summer. 
+I'm plannig to work full time to this project. My goal is not to work fixed hours in week,
+but to reach all goals of the project. Hence, I'm certainly willing to try my best. 
+Thus, I will have no other commitments during this summer. 
 
 For transparency and for the benefit of the community, I'll be blogging my development,
 include description of financial algorithms, code (and and why it is so) and tests. 
@@ -150,7 +134,7 @@ I plan to commit each week. About all deviations I will communicate immediately 
 mentors of the project. My planned schedule (atom of time is week, atom of week result
 is section) is:
 
-#### 27 April - 25 May
+### 27 April - 25 May
 + 1 Backtest, Bootstrap 
 + 2,3 Copula function 
 + 4 Exploratory data plots
@@ -212,7 +196,7 @@ You can find review about my work in my LinkedIn https://www.linkedin.com/in/ego
 ##  Mentors
 + Mentor names: Peter Carl, Brian Peterson
 + Mentor emails: peter@braverock.com, brian@braverock.com 
-+ Mentor id in melage: peter_carl (I have emailed with him)
++ Mentor id in melage: peter_carl 
 
 I emailed  Peter Carl and he gave me some useful tips. I realize the importance of
 staying in touch with a mentor when working remotely and promise do it. 
@@ -223,4 +207,3 @@ Without it, and without a huge number of different packages, we were not able to
 Centre for Mathematical Finance, as we would like. I will be very happy to contribute to 
 the development of the package, so I'm sure that it can really help many people in their 
 projects.
-

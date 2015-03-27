@@ -61,18 +61,6 @@ img {
 
 
 
-<div id="abstract" class="section level1">
-<h1>Abstract</h1>
-<ul>
-<li>Project title: Convert Kevin Dowd’s Matlab code</li>
-<li>Project idea page: <a href="https://github.com/rstats-gsoc/gsoc2015/wiki/Convert-Dowd%27s-Code">https://github.com/rstats-gsoc/gsoc2015/wiki/Convert-Dowd%27s-Code</a></li>
-</ul>
-<p>“Measuring Market Risk” is a widely used book covering important topics in risk measurement, also providing matlab code of modern quantitative finance algorithms. Recently, most of the code for financial algorithms provided either on the VBA or on Matlab, which increases the barrier to entry.</p>
-<p>In my opinion, R is much more friendly environment for learning and experimentation, that does not require too much at the start, but at the same time able to cover your needs with an increase in the level of your professionalism.</p>
-<p>I hope this project will be a solid move towards widely accessible modern risk measure techniques.</p>
-</div>
-<div id="content" class="section level1">
-<h1>Content</h1>
 <div id="personal-details" class="section level2">
 <h2>Personal Details</h2>
 <ul>
@@ -85,7 +73,7 @@ img {
 </div>
 <div id="project-proposal" class="section level2">
 <h2>Project Proposal</h2>
-<p>I have read the parts of the book “Dowd, K. Measuring Market Risk” related to the code.  I have studied source matlab code, which was provided with the book, and played with it a bit in matlab. Also, I have written R functions and and documented them, relating Dowd’s code ‘Copula functions’ for estimation VaR with gaussian copula.  For easy test it, I made package, which you can find in  <a href="https://github.com/evgeniiegorov/VaRgcop" class="uri">https://github.com/evgeniiegorov/VaRgcop</a></p>
+<p>I have read the parts of the book “Dowd, K. Measuring Market Risk” related to the code. I have studied source matlab code, which was provided with the book, and played with it a bit in matlab. Also, I have written R functions and and documented them, relating Dowd’s code ‘Copula functions’ for estimation VaR with gaussian copula. For easy test it, I made package, which you can find in <a href="https://github.com/evgeniiegorov/VaRgcop" class="uri">https://github.com/evgeniiegorov/VaRgcop</a></p>
 <p>I propose to сonvert Kevin Dowd’s Matlab code from ‘Measuring Market Risk’. Not mechanically, but optimizing and using features of R and more sophisticated numerical algorithms.</p>
 <p>Also, I propose to make some extensions of functional. For example, it isn’t big step to go from gaussian-copula-VaR for 2 assets portfolio to n assets portfolio. But, in my opinion, it will be a big difference in functionality for those, who use the package.</p>
 </div>
@@ -169,17 +157,16 @@ img {
 </div>
 <div id="management-of-coding-timeline" class="section level2">
 <h2>Management of coding &amp; timeline</h2>
-<p>I’m plannig to work ~ 40 hours in week in the GSoC period to this project. On the other hand, my goal is not to work 40 hours in week, but to reach all goals of the project. Hence, I’m certainly willing to try my best. Thus, I will have no other commitments during this summer.</p>
+<p>I’m plannig to work full time to this project. My goal is not to work fixed hours in week, but to reach all goals of the project. Hence, I’m certainly willing to try my best. Thus, I will have no other commitments during this summer.</p>
 <p>For transparency and for the benefit of the community, I’ll be blogging my development, include description of financial algorithms, code (and and why it is so) and tests.</p>
 <p>I plan to commit each week. About all deviations I will communicate immediately with mentors of the project. My planned schedule (atom of time is week, atom of week result is section) is:</p>
-<div id="april---25-may" class="section level4">
-<h4>27 April - 25 May</h4>
+<div id="april---25-may" class="section level3">
+<h3>27 April - 25 May</h3>
 <ul>
 <li>1 Backtest, Bootstrap</li>
 <li>2,3 Copula function</li>
 <li>4 Exploratory data plots</li>
 </ul>
-</div>
 <div id="may---26-june" class="section level4">
 <h4>26 May - 26 June</h4>
 <ul>
@@ -212,6 +199,7 @@ img {
 <p>Note these are approximated schedule. Please allow minor adjustments (within 2 to 3 days) according to the actual project status.</p>
 </div>
 </div>
+</div>
 <div id="test-task" class="section level2">
 <h2>Test task</h2>
 <p>I solved the problem of calculating the value-at-risk using a Gaussian copula for a portfolio of two assets, which P/L has normal distribution. The task is divided into steps: * Evaluation of the Gaussian copula on the it domain: unit cube * Calculation of the distribution function return assets * Finding value-under-risk as a quantile, for a given confidence level</p>
@@ -232,14 +220,13 @@ img {
 <ul>
 <li>Mentor names: Peter Carl, Brian Peterson</li>
 <li>Mentor emails: <a href="mailto:peter@braverock.com">peter@braverock.com</a>, <a href="mailto:brian@braverock.com">brian@braverock.com</a></li>
-<li>Mentor id in melage: peter_carl (I have emailed with him)</li>
+<li>Mentor id in melage: peter_carl</li>
 </ul>
 <p>I emailed Peter Carl and he gave me some useful tips. I realize the importance of staying in touch with a mentor when working remotely and promise do it.</p>
 </div>
 <div id="why-rstats" class="section level2">
 <h2>Why Rstats</h2>
 <p>It sounds a bit strange, but R has played a big role in my life, and my friends. Without it, and without a huge number of different packages, we were not able to create Centre for Mathematical Finance, as we would like. I will be very happy to contribute to the development of the package, so I’m sure that it can really help many people in their projects.</p>
-</div>
 </div>
 
 
