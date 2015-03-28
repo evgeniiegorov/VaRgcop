@@ -1,5 +1,8 @@
 ---
-output: pdf_document
+output:
+  html_document: default
+  pdf_document:
+    latex_engine: xelatex
 ---
 ## Personal Details
 + Egorov Evgenii
@@ -156,9 +159,6 @@ is section) is:
 
 #### 17 August - 20 August
 + all recheck, final :)
-
-Note these are approximated schedule. Please allow minor adjustments (within 2 to 3 days)
-according to the actual project status.
 
 ## Test task
 I solved the problem of calculating the value-at-risk using a Gaussian copula for 
